@@ -4,7 +4,7 @@ _**Publish science for free, access science for free.**_
 
 # Aletheia:  A blockchain for scientific knowledge with a community management framework
 
-## Kade Morton
+## By Kade Morton
 ## kademorton@protonmail.com
 
 
@@ -52,18 +52,18 @@ Aletheia has been designed to comply with anti-piracy laws to remove the moral a
 
 Instead, a document will be created and users will be asked through the client if they would like to host and seed this notice. The notice will appear in search results for that document and will be downloadable. It will  state who the take down request came from. In the event the content taken down was forced through the checks and was not a scientific article, the notice will state as such. If the take down request was not for rights violations, but for other reasons, such as the content contained personal information and by making it public this breeched the person’s privacy, for example, the notice will state as such. However, if the notice is for rights violation, the notice will state something yet to be decided upon but in the spirit of the below:
 
-*Article [insert name here] has been removed from Aletheia as the Aletheia community has received a take down order from [insert name here] and found the order to be valid in its assertion that rights to the work have been violated.
+*Article [insert name here] has been removed from Aletheia as the Aletheia community has received a take down order from [insert name here] and found the order to be valid in its assertion that rights to the work have been violated.*
 
-*Scientific knowledge should be free for all though, and [insert name here] just deprived you of knowledge. What’s worse, [insert name here] did this legally. While Aletheia complies with the law, we don’t believe all laws are moral and some should be changed. Certain practices, like paywalls, stunt the growth of humanity simply to line the pockets of a select few. Did you know that [insert name here] posted a profit of [insert value here] in [insert year here]?
+*Scientific knowledge should be free for all though, and [insert name here] just deprived you of knowledge. What’s worse, [insert name here] did this legally. While Aletheia complies with the law, we don’t believe all laws are moral and some should be changed. Certain practices, like paywalls, stunt the growth of humanity simply to line the pockets of a select few. Did you know that [insert name here] posted a profit of [insert value here] in [insert year here]?*
 
-*Laws that benefit very powerful vested interests will only be changed if pressure is bought to bare. Things you can do to help add to this pressure while remaining within the confines of the law:
+*Laws that benefit very powerful vested interests will only be changed if pressure is bought to bare. Things you can do to help add to this pressure while remaining within the confines of the law:*
 
 *Boycott paywalls of all kinds. Do not give them money, hit them where it hurts.
 Call or write to your local, state and federal government representatives expressing that [insert name here] is operating in a legal but unethical manner, and the changing of laws that allow these immoral practices to occur legally is an important issue to you and your vote come election time.
 Call or write to your local educational institutions and express that [insert name here] is operating in a legal but unethical manner, and the educational institution should join you in boycotting them. Suggest the educational institution source articles from open source journals and that this decision will be an important factor in deciding where your future tuition fees are invested.
-Pitch news stories to your local media representatives about the legal but immoral practices [insert name here] engage in.
+Pitch news stories to your local media representatives about the legal but immoral practices [insert name here] engage in.*
 
-*You may be able to find the article you are looking for on websites such as Sci-Hub, this is simply a fact, much like saying water is wet, and we do not encourage you to find your article there. Piracy is illegal.
+*You may be able to find the article you are looking for on websites such as Sci-Hub, this is simply a fact, much like saying water is wet, and we do not encourage you to find your article there. Piracy is illegal.*
 
 A notice like this adequately expresses Aletheia’s position while not breaching the law. In an effort to prevent abuse of articles being removed from searches of the blockchain, such as if an attacker submitted a take down order and then performed a majority attack on the subsequent vote, a vote can be held at any time to make the article downloadable again. If such a vote succeeds, another block would be added to the chain indicating the document is again searchable and downloadable.
 
