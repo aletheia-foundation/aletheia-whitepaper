@@ -7,6 +7,22 @@ _**Publish science for free, access science for free.**_
 ## By Kade Morton
 ## kademorton@protonmail.com
 
+## Table of Contents
+- [1. Introduction](#introduction)
+- [2. A blockchain journal](#a-blockchain-journal)
+- [3. Submission and vetting](#submission-and-vetting)
+- [4. Peer review](#peer-reviw)
+- [5. Acceptance onto the blockchain](#acceptance-onto-the-blockchain)
+- [6. The rights to content shared via Aletheia and takedown orders](#the-rights-to-content-shared-via-aletheia-and-takedown-orders)
+- [7. Access and identity management](#access-and-identity-management)
+- [8. Community](#community)
+- [9. Reputation system](#reputation-system)
+- [10. Code audit](#code-audit)
+- [11. Smart contracts](#smart-contracts)
+- [12. Revenue model](#revenue-model)
+- [13. Why blockchain?](#why-blockchain)
+- [14. Out of scope but desirable](#out-of-scope-but-desireable)
+- [15. Outlook on blockchain and science](#outlook-on-blockchain-and-science)
 
 ## 1. Introduction
 It was estimated in 2010 that roughly 50 million scientific articles had been published to date [1](http://www.ruor.uottawa.ca/bitstream/10393/19577/2/Jinha_Arif_2010_Article_50_million.pdf). It is unclear what percentage of scientific articles are behind paywalls but given a cursory search for scientific articles online will more often than not lead to a paywall, it can be surmised that a large percentage of scientific articles are behind paywalls. That is to say, a large percentage of humanity’s collective knowledge is only accessible by those with financial means. To put the term ‘financial means’ in context, in 2012 the Harvard Library published a letter stating that it was paying close to $3,750,000 USD a year in journal subscriptions and that this state of affairs was financially untenable, meaning the library planned on cutting back the number of journals on offer to students [2](http://gantercourses.net/wp-content/uploads/2013/11/Faculty-Advisory-Council-Memorandum-on-Journal-Pricing-§-THE-HARVARD-LIBRARY.pdf). If Ivy League institutions cannot afford scientific journals, what chance does an institution in a developing nation, or even just your average individual have? Cutting off every person who doesn’t have the financial means to pay exorbitant fees for scientific knowledge is fundamentally wrong. Aletheia is a proposal to go some way to correcting this error while also fostering a movement against paywall journals. Aletheia is a blockchain that is free to access, hosting peer to peer information allowing people to transfer scientific journals to one another, with the community being facilitated by smart contracts. It is hoped these smart contracts could form the basis for administering other open source software projects.
@@ -95,7 +111,7 @@ Below is a basic guide to the common community activities:
 
 * Audit source code – by auditing source code, signing the section of code along with the auditor's comments with their PGP private key and hosting and seeding the generated audit document users can contribute to the security of Aletheia.
 
-## 9. The reputation system
+## 9. Reputation system
 The often cited reason existing open source journals don't grow to rival their paywall counterparts is due to the prestige that comes with being published in a large, well established paywall journal. For academics it is often more beneficial for their careers to publish in a large paywall journal [5](https://www.theguardian.com/science/2013/dec/09/nobel-winner-boycott-science-journals). Aletheia can do nothing about the prestige academics get for publishing in paywall journals other than to work to inform people about the negative aspects of paywall journals, but Aletheia can attempt to emulate this prestige to encourage submissions. Interacting with the community and contributing to Aletheia will gain reputation, a record of which is stored on an immutable blockchain. Anything from hosting and seeding documents to participating in votes and peer reviews will gain a user reputation in that field with an aggregated overall reputation score. Given all the tasks required to generate reputation along with the checks built into many of the processes, plus the trusted nature of the blockchain over a mundane website it is hoped that Aletheia reputation could come to mean something outside of Aletheia. To make the reputation system more than just numbers inside of Aletheia, the higher the user's reputation the more weight their vote carries. To prevent an adversary obtaining a large amount of reputation for the purpose of influencing votes, such as hosting and seeding a large number of documents already indexed to the blockchain, the weight of votes will be calculated by assessing reputation in all areas and screening out extreme outlyers. A normal user will more than likely participate in multiple activities on Aletheia, even if this is just voting and participating in the forums, but this means there is no immediate way for an attacker to gain a large amount of reputation for little effort. Similarly a user can download multiple clients to attempt to gain multiple votes, but the votes will carry little weight without reputation. Such an attacker could gain reputation by performing tasks across a number of clients, but the collective reputation will be the same as if they had performed these actions from the one client with the one 'heavier' vote rather than multiple 'lighter' votes.
 
 ## 10. Code audit
