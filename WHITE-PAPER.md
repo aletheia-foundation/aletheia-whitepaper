@@ -8,7 +8,7 @@ _**Publish science for free, access science for free.**_
 ## kademorton@protonmail.com
 
 ## Table of Contents
-- [1. Introduction](#introduction)
+- [Introduction](#introduction)
 - [2. A blockchain journal](#a-blockchain-journal)
 - [3. Submission and vetting](#submission-and-vetting)
 - [4. Peer review](#peer-reviw)
@@ -24,7 +24,7 @@ _**Publish science for free, access science for free.**_
 - [14. Out of scope but desirable](#out-of-scope-but-desireable)
 - [15. Outlook on blockchain and science](#outlook-on-blockchain-and-science)
 
-## 1. Introduction
+## Introduction
 It was estimated in 2010 that roughly 50 million scientific articles had been published to date [1](http://www.ruor.uottawa.ca/bitstream/10393/19577/2/Jinha_Arif_2010_Article_50_million.pdf). It is unclear what percentage of scientific articles are behind paywalls but given a cursory search for scientific articles online will more often than not lead to a paywall, it can be surmised that a large percentage of scientific articles are behind paywalls. That is to say, a large percentage of humanity’s collective knowledge is only accessible by those with financial means. To put the term ‘financial means’ in context, in 2012 the Harvard Library published a letter stating that it was paying close to $3,750,000 USD a year in journal subscriptions and that this state of affairs was financially untenable, meaning the library planned on cutting back the number of journals on offer to students [2](http://gantercourses.net/wp-content/uploads/2013/11/Faculty-Advisory-Council-Memorandum-on-Journal-Pricing-§-THE-HARVARD-LIBRARY.pdf). If Ivy League institutions cannot afford scientific journals, what chance does an institution in a developing nation, or even just your average individual have? Cutting off every person who doesn’t have the financial means to pay exorbitant fees for scientific knowledge is fundamentally wrong. Aletheia is a proposal to go some way to correcting this error while also fostering a movement against paywall journals. Aletheia is a blockchain that is free to access, hosting peer to peer information allowing people to transfer scientific journals to one another, with the community being facilitated by smart contracts. It is hoped these smart contracts could form the basis for administering other open source software projects.
 
 ## 2. A blockchain journal
