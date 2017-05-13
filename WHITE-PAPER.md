@@ -11,7 +11,7 @@ _**Publish science for free, access science for free.**_
 - [Introduction](#introduction)
 - [A blockchain journal](#a-blockchain-journal)
 - [Submission and vetting](#submission-and-vetting)
-- [Peer review](#peer-reviw)
+- [Peer review](#peer-review)
 - [Acceptance onto the blockchain](#acceptance-onto-the-blockchain)
 - [The rights to content shared via Aletheia and takedown orders](#the-rights-to-content-shared-via-aletheia-and-takedown-orders)
 - [Access and identity management](#access-and-identity-management)
@@ -21,7 +21,7 @@ _**Publish science for free, access science for free.**_
 - [Smart contracts](#smart-contracts)
 - [Revenue model](#revenue-model)
 - [Why blockchain?](#why-blockchain)
-- [Out of scope but desirable](#out-of-scope-but-desireable)
+- [Out of scope but desirable](#out-of-scope-but-desirable)
 - [Outlook on blockchain and science](#outlook-on-blockchain-and-science)
 
 ## Introduction
