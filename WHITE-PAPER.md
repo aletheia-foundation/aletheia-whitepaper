@@ -149,6 +149,17 @@ The often cited reason existing open source journals don't grow to rival their p
 
 To make the reputation system more than just numbers inside of Aletheia, the higher the user's reputation the more weight their vote carries. To prevent an adversary obtaining a large amount of reputation for the purpose of influencing votes, such as hosting and seeding a large number of documents already indexed to the blockchain, the weight of votes will be calculated by assessing reputation in all areas and screening out extreme outlyers. A normal user will more than likely participate in multiple activities on Aletheia, even if this is just voting and participating in the forums, but this means there is no immediate way for an attacker to gain a large amount of reputation for little effort. Similarly a user can download multiple clients to attempt to gain multiple votes, but the votes will carry little weight without reputation. Such an attacker could gain reputation by performing tasks across a number of clients, but the collective reputation will be the same as if they had performed these actions from the one client with the one 'heavier' vote rather than multiple 'lighter' votes.
 
+### What reputation will be scored on
+The below is a work in progress list of the different things that will increase the reputation of a user:
+
+* Submitting scientific research papers
+* Peer reviewing the papers of others
+* The inclusion of data sets with papers so data sets are stored together with papers, easily locatable and not lost.
+* The inclusion of data analysis methodology so reasech is easily reporducable
+* Participating in community voting
+* Discussing votes in community forums
+* Hosting and seeding documents, depending on implamentation 
+
 ## Code audit
 Linus's Law and the Many Eyes Theory suggest that bugs in open source software should be shallow due to the number of eyes looking at the code [6](https://en.wikipedia.org/wiki/Linus's_Law), [7](http://blog.erratasec.com/2014/09/many-eyes-theory-conclusively-disproven.html). However, discoveries of vulnerabilities like Shellshock in open source code that has been available for people to look at for roughly twenty five years calls these theories into question. In current open source projects it's not often easy to see how much of the code has actually been audited and therefore it's very easy for some to make the sweeping statement 'the code is open source so it must have very few to no bugs'. Aletheia attempts to shine a light on code auditing. Anyone can view the source code for Aletheia and therefore anyone can audit the code. Users can create a document with sections of source code they have audited along with notes of conditions if met the code will be secure under etc., and sign this document with their private PGP key. This document can then be hosted and seeded, and the weight of the audit can be verified by the reputation of the user. Based on this data Aletheia can show all users exactly how much of the code base has been audited, by which users, by how many users and how much weight should be placed in the audit. 
 
