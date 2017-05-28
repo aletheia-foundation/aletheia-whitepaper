@@ -21,6 +21,7 @@ _**Publish science for free, access science for free.**_
 - [The incentivised seeding problem](#the-incentivised-seeding-problem)
 - [Community](#community)
 - [Reputation system](#reputation-system)
+  - [What reputation will be scored on](#what-reputation-will-be-scored-on)
 - [Code audit](#code-audit)
 - [Smart contracts](#smart-contracts)
 - [Revenue model](#revenue-model)
