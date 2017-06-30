@@ -215,6 +215,8 @@ Smart contracts handling the management of Aletheia:
 
 Every smart contract, along with every time it is invoked and the outcome of the execution of the smart contract is stored on the blockchain to provide a fully transparent audit trail.
 
+*** This section is under review as we have sought legal advice suggesting the not for profit route may be a more feasible alterntive***
+
 ## Revenue model
 Ideally the human race would be a post scarcity society and individuals wouldn't need monetary incentive because they don't have expenses in their lives. Unfortunately we are not there yet, and while many in the open source community will disagree with this decision, Aletheia as an entity is envisaged as a for profit company. The source code of Aletheia itself is opensource and published under a _GNU General Public License v3.0_, meaning the code will stay opensource and cannot be copyrighted by anyone, but it is planned that a for profit company would support the platform and community. This purely for pragmatic reasons, the scope of Aletheia is quite large and the likelihood a prototype will be built and maintained by people volunteering their time is small. The likelihood a prototype will be built and maintained by people being paid for their time is higher. However it's recognised that deriving revenue ethically is a difficult task, but one that must be surmounted. Currently no decision has been settled on but there are a number of ideas under discussion on top of the base of accepting charitable donations.
 
