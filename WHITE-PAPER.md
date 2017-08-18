@@ -44,6 +44,7 @@ A blockchain is a distributed ledger that through cryptographic means can only b
 Peer to peer file sharing is a method of file sharing where you run peer to peer software on your computer, becoming a peer, that queries other computers also running the same software, other peers in the network, and once it has found a peer with the desired file it begins downloading a copy to your computer [3](https://en.wikipedia.org/wiki/Peer-to-peer). To facilitate the main function of Aletheia, the obtaining of scientific journals, the Aletheia client is a peer to peer file sharing client with some additional functionality. By downloading and running the Aletheia client you are becoming a node in the distributed blockchain. Scientific journals are tagged for file sharing through the client where you must specify the files, the scientific article and datasets to be shared, if you would like the article to be peer reviewed, and metadata. The required metadata is based off the Dublin Core Metadata Element Set:
 
 * The contributors to the article.
+* Conributor ORCIDs
 * The coverage of the article.
 * The creator of the article.
 * The date the article was published.
