@@ -41,24 +41,47 @@ It was estimated in 2010 that roughly 50 million scientific articles had been pu
 A blockchain is a distributed ledger that through cryptographic means can only be added to, not subsequently changed. For a thorough technical explanation of a blockchain, please see Satoshi Nakamoto’s original paper, [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf). A blockchain has many properties and Aletheia does not make use of them all. Aletheia isn’t concerned with creating assets and preventing double spending of those assets, for instance. Aletheia utilises a blockchain primarily to achieve a distributed and tamper proof database of information, storing document metadata, vote topics, vote results and information specific to users such as reputation and certifications.
 
 ## Submission and vetting
-Peer to peer file sharing is a method of file sharing where you run peer to peer software on your computer, becoming a peer, that queries other computers also running the same software, other peers in the network, and once it has found a peer with the desired file it begins downloading a copy to your computer [3](https://en.wikipedia.org/wiki/Peer-to-peer). To facilitate the main function of Aletheia, the obtaining of scientific journals, the Aletheia client is a peer to peer file sharing client with some additional functionality. By downloading and running the Aletheia client you are becoming a node in the distributed blockchain. Scientific journals are tagged for file sharing through the client where you must specify the files, the scientific article and datasets to be shared, if you would like the article to be peer reviewed, and metadata. The required metadata is based off the Dublin Core Metadata Element Set:
+Peer to peer file sharing is a method of file sharing where you run peer to peer software on your computer, becoming a peer, that queries other computers also running the same software, other peers in the network, and once it has found a peer with the desired file it begins downloading a copy to your computer [3](https://en.wikipedia.org/wiki/Peer-to-peer). To facilitate the main function of Aletheia, the obtaining of scientific journals, the Aletheia client is a peer to peer file sharing client with some additional functionality. By downloading and running the Aletheia client you are becoming a node in the distributed blockchain. Scientific journals are tagged for file sharing through the client where you must specify the files, the scientific article and datasets to be shared, if you would like the article to be peer reviewed, and metadata. The required metadata is based off the Dublin Core Metadata Element Set and consultation with research authors:
 
-* The contributors to the article.
-* Conributor ORCIDs
-* The coverage of the article.
-* The creator of the article.
-* The date the article was published.
-* A description of the article.
-* The format the file being tagged for sharing is in.
-* An identifier.
-* The language the article is written in.
-* The publisher of the article.
-* A list of related resources.
-* The rights associated with the article.
-* The source of the article’s contents.
-* The subject of the article.
-* The title of the article.
-* The type of article.
+* The contributors to the article
+* Conributor identifiers, such as ORCIDs
+* The date the article was published
+* An abstract of the article
+* The language the article is written in
+* The publisher of the article if published elsewhere previously
+* A list of related resources
+* The source of the article’s contents
+* The title of the article
+* Discipline of the article, a dropdown from)
+  * Performing arts
+  * Visual arts
+  * Geography
+  * History
+  * Languages and literature
+  * Philosophy
+  * Theology
+  * Anthropology
+  * Economics
+  * Law
+  * Political science
+  * Psychology
+  * Sociology
+  * Biology
+  * Chemistry
+  * Earth sciences
+  * Space sciences
+  * Physics
+  * Computer Science
+  * Mathematics
+  * Statistics
+  * Engineering
+  * Medicine and health sciences
+* Author's contributions
+* Author's affiliations
+* Funding body
+* Keywords
+* Publication date range
+* Pre-Print
 
 For an explanation of the Dublin Core Metadata Element Set please see the [Dublin Core website](http://dublincore.org/documents/dces/). Not all of these terms will be immediately clear to the average user, so they are not mandatory fields. This metadata in its current state is saved to the blockchain with a note that it has not been vetted. This block in the chain will be vetted, it is envisaged by staff or skilled volunteers, and once done so another block in the chain will be added stating that this is vetted information for our previous block. This forms an audit trail such that any tampering with the metadata will be clearly visible. 
 
