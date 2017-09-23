@@ -52,7 +52,7 @@ Peer to peer file sharing is a method of file sharing where you run peer to peer
 * A list of related resources
 * The source of the article’s contents
 * The title of the article
-* Discipline of the article, a dropdown from)
+* Discipline of the article, a dropdown from:
   * Performing arts
   * Visual arts
   * Geography
