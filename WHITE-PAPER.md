@@ -12,6 +12,7 @@ _**Publish research for free, access research for free.**_
 - [Introduction](#introduction)
 - [Why is Aletheia important?](#why-is-aletheia-important)
   - [A blockchain journal](#a-blockchain-journal)
+  - [A peer to peer journal](#a-peer-to-peer-journal)
   - [A community journal](#a-community-journal)
 - [Submission and vetting](#submission-and-vetting)
 - [Peer review](#peer-review)
@@ -50,11 +51,17 @@ A blockchain is a distributed ledger that through cryptographic means can only b
 
 Aletheia also allows reputation to be accrued by users and uploaded academic papers, along with the tracking of citations of papers. Aletheia creates a reputation ecosystem that can be drilled down into the show the number of papers uploaded and their quality, number of citations the paper receives, number of reviews performed and their quality, number of decisions participated in and what decision was made. This information is a comprehensive record of a users contribution to science, which is more rigorous and scientific than the prestige model of publishing in top tier journals. Publishing in top tier journals attracts prestige due to the stringent editorial and peer review process, but evidence show retraction rates for peer reviewed work is rising [3](https://theconversation.com/what-lesson-do-rising-retraction-rates-hold-for-peer-review-28823). 
 
+### A peer to peer journal
+Peer to peer file sharing is a method of file sharing where peer to peer software is run on a computer, making that computer a peer in a network of peers. This allows the computer to query other peers also running the same software, and once it has found a peer with the desired file it begins downloading a copy [4](https://en.wikipedia.org/wiki/Peer-to-peer). To facilitate the main function of Aletheia, the obtaining of scientific journals, the Aletheia client is a peer to peer file sharing client. By downloading and running the Aletheia client you are becoming a peer in the distributed network. Academic papers and data sets are submitted for file sharing through the client, and you can also choose to have the paper peer reviewed. This supports Aletheia's dencetralised nature.
+
 ### A community journal
 Aletheia is also open source, allowing people to view the source, verify its security and contribute to it if desired. Because everyone has access to the code, the code can be hosted on any website for download, making Aletheia hard to censor. The community directly administers Aletheia through direct democracy, achieved through using smart contracts that allow decisions to be voted on. Due to its decentralised nature along with providing an alternative to the current prestige system and allowing the community to directly administer the platform, Aletheia contributes something currently lacking from the current open access ecosystem.
 
 ## Submission and vetting
-Peer to peer file sharing is a method of file sharing where peer to peer software is run on a computer, making that computer a peer in a network of peers. This allows the computer to query other peers also running the same software, and once it has found a peer with the desired file it begins downloading a copy [4](https://en.wikipedia.org/wiki/Peer-to-peer). To facilitate the main function of Aletheia, the obtaining of scientific journals, the Aletheia client is a peer to peer file sharing client with some additional functionality. By downloading and running the Aletheia client you are becoming a peer in the distributed network. Scientific journals are tagged for file sharing through the client where you must specify the files, the scientific article and datasets to be shared, if you would like the article to be peer reviewed, and metadata. The required metadata is based off the Dublin Core Metadata Element Set and consultation with research authors:
+ 
+
+Metadata is required for
+The required metadata is based off the Dublin Core Metadata Element Set and consultation with research authors:
 
 * The contributors to the article
 * Contributor identifiers, such as ORCIDs
