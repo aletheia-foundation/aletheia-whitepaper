@@ -14,7 +14,7 @@ _**Publish research for free, access research for free.**_
   - [A blockchain journal](#a-blockchain-journal)
   - [A peer to peer journal](#a-peer-to-peer-journal)
   - [A community journal](#a-community-journal)
-- [Submission and vetting](#submission-and-vetting)
+- [Submitting documents to Aletheia](#submitting-documents-to-aletheia)
 - [Peer review](#peer-review)
   - [Short List peer review](#short-list-peer-review)
   - [Entire Pool peer review](#entire-pool-peer-review)
@@ -57,11 +57,10 @@ Peer to peer file sharing is a method of file sharing where peer to peer softwar
 ### A community journal
 Smart contracts are computer programs designed to execute a predefined action based on inputs. They are typically imagined as legal contracts written as programs [5](https://en.wikipedia.org/wiki/Smart_contract), but they can be used to create a community management framework. Smart contracts can be written to either perform one of two predefined actions, or simply to perform or not perform a predefined action based on number of votes received during a specified time frame. In this waty, the community directly administers Aletheia through direct democracy. Aletheia is also open source, allowing people to view the source, verify its security and contribute to it if desired. Because everyone has access to the code, the code can be hosted on any website for download, making Aletheia hard to censor. Due to its decentralised nature along with providing an alternative to the current prestige system and allowing the community to directly administer the platform, Aletheia contributes something currently lacking from the current open access ecosystem.
 
-## Submission and vetting
-Once a user has installed the Aletheia client on their computer, they can upload academic papers and associated data sets to be shared with the Aletheia 
+## Submitting documents to Aletheia
+Once a user has installed the Aletheia client on their computer, they can upload academic papers and associated data sets to be shared with the Aletheia. To facilitate the search function and allow the client to return papers on particular topics or from particular disciplines, metatdata is also required. This can be entered at time of submission to Aletheia, or it can be added at a later date by the community.
 
-Metadata is required for
-The required metadata is based off the Dublin Core Metadata Element Set and consultation with research authors:
+The metadata fields in Aletheia are based on the Dublin Core Metadata Element Set along with research author consultation:
 
 * The contributors to the article
 * Contributor identifiers, such as ORCIDs
