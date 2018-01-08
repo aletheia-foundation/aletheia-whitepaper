@@ -15,6 +15,9 @@ _**Publish research for free, access research for free.**_
   - [A peer to peer journal](#a-peer-to-peer-journal)
   - [A community journal](#a-community-journal)
 - [Submitting documents to Aletheia](#submitting-documents-to-aletheia)
+  - [Thresholds](#thresholds)
+  - [Storage in Aletheia](#storage-in-aletheia)
+  - [Voting reputation](#voting-reputation)
 - [Acceptance onto the blockchain](#acceptance-onto-the-blockchain)
 - [Peer review](#peer-review)
   - [Short List peer review](#short-list-peer-review)
@@ -109,10 +112,13 @@ Should any disagreement arise over the vetted metadata, it will be resolved thro
 ## Acceptance into Aletheia
 Before the articles become searchable and downloadable through the client, a community vote must be held and carried for the article to be accepted into Aletheia. This is to prevent things other than academic papers and related documents like data sets being uploaded and Aletheia being used as arbitrary external storage. A vote for the document to be accepted into Aletheia is launched at time of sbmission, a deliberately broad question that is a binary yes/no voute: "Do the documents represent academic research or not?". All users can see pending votes through their client, can download the documents associated with the vote to assess them and cast their vote. 
 
+### Thresholds
 A reputation threshold will be set and for a vote to pass a number of users that collectively have more than the required reputation must vote yes for the documents to be added to Alethiea. The reputation threshold for the yes vote will be higher than the no vote, deliberately biasing Alethia to make it harder for non academic content to enter Aletheia. Along with a reputation threshold a user number threshold will also need to be met, to ensure a minimum number of users vote on the inclusion of the documents. This ensures it's harder for users who have legitimately ammassed reputation to dictate what does or doesn't come into Aletheia. The final threshold will be a time threshold, votes will remain active for a set period of time, allowing enough time for both a yes or a no vote to accrue. If both yes and no votes reach their reputation and user number thresholds within the timeframe, the vote defaults to no and fails. All three thresholds, reputation, number of users and time elapsed  must be met for a vote to succeed. 
 
+### Storage in Aletheia
 If the vote passes the documents are accepted into Aletheia and will be returned in the client through search results. If the vote fails the documents will be deleted and the user notified by way of their client. Acceptance into Aletheia means a hash of the document and the document metadata are added to Ethereum and the Aletheia client will seed the document for download by other users. The hash can be checked against seeds to prevent tampering with documents and help demonstrate version control for papers. Due to current limitations with the amount of information able to be stored on a blockchain, the article itself is not stored on Ethereum. With advances in blockchain and computing it is hoped that a point can be reached where content could be stored on the blockchain itself, making the storage of articles more secure, at which point this new method would be adopted for Aletheia. 
 
+### Voting reputation
 Voting will be encentivised through reputation and further reputation will be rewarded for voting with the majority, regardless of if the vote passed or not or if the majority voted one way and the vote went the other way due to thresholds either being met or not. This means people will not be punished by the vote but they will be rewarded by following the crowd. The posed question, "Do the documents represent academic research or not?" is deliberately broad and the crowd in most instances should pick the correct outcome, therefore deliberately trying to skew votes will be punished. To prevent a malicious actor downloading a number of clients and attempting to vote, only users with a set reputation level can vote. That reputation level can be attained by the solving of a one time captcha and/or any other method of proving a user is a human as the technology around bots continues to develop.
 
 ## Peer review
