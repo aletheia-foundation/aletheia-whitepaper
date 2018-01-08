@@ -22,6 +22,8 @@ _**Publish research for free, access research for free.**_
 - [Peer review](#peer-review)
   - [Short List peer review](#short-list-peer-review)
   - [Entire Pool peer review](#entire-pool-peer-review)
+  - [Anonymity](#anonymity)
+  - [Rounds of peer review](#rounds-of-peer-review)
 - [Cryptographic Control](#cryptographic-control)
 - [The rights to content shared via Aletheia and takedown orders](#the-rights-to-content-shared-via-aletheia-and-takedown-orders)
 - [Access and identity management](#access-and-identity-management)
@@ -127,10 +129,19 @@ To quote the paper [A multi-disciplinary perspective on emergent and future inno
 Along with the vetting of metadata, the papers and data sets themselves must be vetted. A number of papers will already have undergone a peer review process or will elect to forego a peer review process, so peer review not a mandatory step for submission. The review, regardsless which chosen remains open indefinetly, and should a paper be uploaded without selecting a peer review and at a later stage the author/s wish to instigate a peer review they only need reupload the same document and select peer review at time of submission. The unreviewed paper will we retrivable through the client once submitted and approved, and effectively exists as a preprint at this stage. For many reasons a paper that selects peer review might never receive reviews and effectively the peer review opportunity remains open indefinetly. Should the paper later receive reviews as reviews are performed a hash of the review will be stored as a new block associated with the paper, meaning as and when reviews come in they can also be retrieved through the client. Papers naturally progress from preprint to peer reviewed and the paper's reputation score increases. If the submitter requests the article be peer reviewed they can choose to either have their work peer reviewed by particular users, a short list peer review, or they can open their article up to the entire reviewer pool, an entire pool peer review.
 
 ### Short List peer review
-In short list review, the submitter will be able to search for users to review their work through their client, either by name or reputation score. The reviewer can see if they have been selected for short list review through their client and can either accept or decline the review. 
+In short list review, the submitter will be able to search for users to review their work through their client, either by name or reputation score. The reviewer can see if they have been selected for short list review through their client and can either accept or decline the review. Only selected users can peer review the document.
 
 ### Entire Pool peer review
-In an entire pool review the client will push a request to reviewers in the appropriate field and must reach three acceptances in five days or the review is cancelled. Once the review is completed and the work resubmitted the article will immediately be accepted onto the blockchain for download by normal users.
+In an entire pool review any user can review the document. 
+
+### Anonymity
+Along with choosing the type of review the submitor will also have the option to have all names of authors hidden to reviewers if they so choose, and reviewers can also choose to hide their names. Papers and reviews can accrue reputation through citiations and downloads so the ability to remain anonymous is to mitigate bias based on gender/race/any other criterion. The paper and reviews are only anonymous until at least one round of peer review is completed.
+
+### Rounds of peer review
+The submitter is notified via their client when they receive reviews and to go through a round of review another version of the paper is uploaded that addresses the reviews received. The revised paper needs to go through two votes, the aceptance into Aletheia again, and another vote to confirm that the paper has adequetly addressed the reviewers comments. The submitter can write a short statement outlining how the revised paper addresses the reviews and if any reviews where ignored for any reason, such as lack of relevence. Once both these votes pass, the papers are connected in Aletheia as the next version of the initial paper, so people can track the evolution of the paper along with review comments. At this point one round of peer review is complete and the paper can continue to go through multiple rounds of peer review if reviews continue to be made. A round of peer review confers additional reputation on the paper.
+
+
+
 
 A reviewer will see through the Aletheia client all the articles they can review regardless of the peer review method and reviewing will be incentivised through reputation. The reviewer will select the article and write their notes, uploading their notes much like an article. The reviewer can reference articles already indexed on the blockchain as part of their peer review, forming a 'chain of fact' that stretches from article to article. Once finished a block will be added to the blockchain connected to the article to inform people the article has been peer reviewed and people can download the peer review notes from the reviewer should they so wish. 
 
