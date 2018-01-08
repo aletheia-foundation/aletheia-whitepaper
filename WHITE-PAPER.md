@@ -2,10 +2,11 @@
 
 _**Publish research for free, access research for free.**_
 
-# Aletheia:  A blockchain for scientific knowledge with a community management framework
+# Aletheia: A blockchain for scientific knowledge with a community management framework
 
-## By Kade Morton
+## By Kade Morton and the Aletheia Community
 ## kademorton@protonmail.com
+## contact@aletheia-foundation.io
 
 ## Table of Contents
 - [Introduction](#introduction)
