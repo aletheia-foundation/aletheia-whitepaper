@@ -100,7 +100,7 @@ The metadata fields in Aletheia are based on the Dublin Core Metadata Element Se
 * Funding body
 * Keywords
 * Publication date range
-* Pre-Print
+* Pre-Print indication
 
 For an explanation of the Dublin Core Metadata Element Set please see the [Dublin Core website](http://dublincore.org/documents/dces/). Not all of these terms will be immediately clear to the average user, so they are not mandatory fields. This metadata in its current state is saved to the blockchain with a note that it has not been vetted. This block in the chain will be vetted, it is envisaged by staff or skilled volunteers, and once done so another block in the chain will be added stating that this is vetted information for our previous block. This forms an audit trail such that any tampering with the metadata will be clearly visible. 
 
