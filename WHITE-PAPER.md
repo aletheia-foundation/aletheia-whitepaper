@@ -193,13 +193,9 @@ Aletheia is the embodiment of software that, while it exists as code, it does no
 Below is a basic guide to common community activities:
 
 * Peer review documents – Users are able to see documents pending an Entire Pool peer review. They will be able to upload comments on the document that will go back to the submitter form part of the peer review. It submitters have an issue with any user being able to submit comments, they can either choose a Short List peer review, or no peer review at all
-
 * Localise documents – translate documents into other languages and then upload the document which will be linked to the original, making Aletheia’s content more accessible to a wider audience
-
 * Vet the metadata submitted with articles and datasets – improve the metadata quality to improve search results for papers through the Aletheia client
-
 * Participate in votes – decisions are given over to the global community to vote on
-
 * Audit and contribute to source code – by auditing and contributing to source code users can improve the security of Aletheia and continue its growth
 
 The community exists past the Aletheia client and there may be other ways that the community interacts, such as through the Aletheia Foundation GitHub account, messaging servies, online forums and in person events. The community will be supported by the Aletheia Foundation, an entity created to support all aspects of Aletheia.
