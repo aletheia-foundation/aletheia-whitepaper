@@ -178,13 +178,13 @@ _Scientific knowledge should be free for all though, and [insert name here] just
 
 _Laws that benefit very powerful vested interests will only be changed if pressure is bought to bare. Things you can do to help add to this pressure while remaining within the confines of the law:_
 
-_Boycott paywalls of all kinds. Do not give them money, hit them where it hurts.
+_Boycott paywalls of all kinds. Do not give them money, hit them where it hurts._
 
-Call or write to your local, state and federal government representatives expressing that [insert name here] is operating in a legal but unethical manner, and the changing of laws that allow these immoral practices to occur legally is an important issue to you and your vote come election time.
+_Call or write to your local, state and federal government representatives expressing that [insert name here] is operating in a legal but unethical manner, and the changing of laws that allow these immoral practices to occur legally is an important issue to you and your vote come election time._
 
-Call or write to your local educational institutions and express that [insert name here] is operating in a legal but unethical manner, and the educational institution should join you in boycotting them. Suggest the educational institution source articles from open access journals and that this decision will be an important factor in deciding where your future tuition fees are invested.
+_Call or write to your local educational institutions and express that [insert name here] is operating in a legal but unethical manner, and the educational institution should join you in boycotting them. Suggest the educational institution source articles from open access journals and that this decision will be an important factor in deciding where your future tuition fees are invested._
 
-Pitch news stories to your local media representatives about the legal but immoral practices [insert name here] engage in._
+_Pitch news stories to your local media representatives about the legal but immoral practices [insert name here] engage in._
 
 _You may be able to find the article you are looking for on websites such as Sci-Hub, this is simply a fact, much like saying water is wet, and we do not encourage you to find your article there. Piracy is illegal._
 
