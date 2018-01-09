@@ -209,15 +209,20 @@ Below is a basic guide to common community activities:
 The community exists past the Aletheia client and there may be other ways that the community interacts, such as through the Aletheia Foundation GitHub account, messaging servies, online forums and in person events. The community will be supported by the Aletheia Foundation, an entity created to support all aspects of Aletheia.
 
 ### What reputation will be scored on
-The below is a work in progress list of the different things that will increase the reputation of a user:
+The below is a basic list of the different things that will impact the reputation of a user:
 
-* Submitting scientific research papers
-* Peer reviewing the papers of others
+* Submitting academic papers
+* The quality of the paper
+* Receiving citations to published papers
 * The inclusion of data sets with papers so data sets are stored together with papers, easily locatable and not lost.
 * The inclusion of data analysis methodology so research is easily reproducible
+* Peer reviewing the papers of others
+* The quality of the peer reviews
 * Participating in community voting
-* Discussing votes in community forums
-* Hosting and seeding documents, depending on implementation 
+* Performing code audits
+* Contributing to the code base
+* Localising academic papers
+* Effort will be placed on finding ways to measure contributions from other community members, like though community organising and managing Aletheia's social media presence.
 
 ## Code audit ***This section is under review as is long term planning and may be broken out into its own project***
 Linus's Law and the Many Eyes Theory suggest that bugs in open source software should be shallow due to the number of eyes looking at the code [7](https://en.wikipedia.org/wiki/Linus's_Law), [8](http://blog.erratasec.com/2014/09/many-eyes-theory-conclusively-disproven.html). However, discoveries of vulnerabilities like Shellshock in open source code that has been available for people to look at for roughly twenty five years calls these theories into question. In current open source projects it's not often easy to see how much of the code has actually been audited and therefore it's very easy for some to make the sweeping statement 'the code is open source so it must have very few to no bugs'. Aletheia attempts to shine a light on code auditing. Anyone can view the source code for Aletheia and therefore anyone can audit the code. Users can create a document with sections of source code they have audited along with notes of conditions if met the code will be secure under etc., and sign this document with their private PGP key. This document can then be hosted and seeded, and the weight of the audit can be verified by the reputation of the user. Based on this data Aletheia can show all users exactly how much of the code base has been audited, by which users, by how many users and how much weight should be placed in the audit. 
