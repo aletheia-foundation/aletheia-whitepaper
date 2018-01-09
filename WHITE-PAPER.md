@@ -35,10 +35,9 @@ _**Publish research for free, access research for free.**_
 - [Access and identity management](#access-and-identity-management)
 - [The incentivised seeding problem](#the-incentivised-seeding-problem)
 - [Community](#community)
-- [Reputation system](#reputation-system)
   - [What reputation will be scored on](#what-reputation-will-be-scored-on)
-- [Code audit](#code-audit)
 - [Smart contracts](#smart-contracts)
+  - [Smart contracts handling votes related to the content of Aletheia](#smart-contracts-handling-votes-related-to-the-content-of-aletheia)
 - [Revenue model](#revenue-model)
   - [Advertising](#advertising)
   - [Community fundraising](#community-fundraising)
@@ -227,23 +226,21 @@ The below is a basic list of the different things that will impact the reputatio
 As a general rule of thumb, where an action could infer reputation, but also could be abused, such as performing the action numerous times with no benefit to the Aletheia ecosystem, purely for the purpose of appearing to have made a number of contributions and therefore accuring reputation, a check will be put in place. Before reputation can be incurred a vote is launched to assess the users contribution. This vote will have the same three thresholds as other votes. If the community vote passes, the person will be given reputation. If a number of failed votes are registered against the same user will incur a reputational penalty.
 
 ## Smart contracts
-The mechanism that Aletheia handles votes and other decisions is through smart contracts. These smart contracts can be broadly thought of in two categories, votes related to the blockchain and management of Aletheia. 
+The mechanism that Aletheia handles votes and other decisions is through smart contracts. These smart contracts can be broadly thought of in two categories, votes related to the content of Aletheia and management of the Aletheia Foundation. 
 
-Smart contracts handling
- votes related to the blockchain:
-
-* Acceptance to be indexed onto the blockchain – should the metadata of the article and dataset be searchable by the Aletheia client.
-* Confirmation that a peer review was legitimate – after the article is indexed on the blockchain a vote will be held to assess the peer review to ensure it actually took place and that it is sufficient. If the user is not receiving a wage from Aletheia a portion of any available funds will be routed to the user as payment if the vote is carried.
-* Confirmation that a code audit was legitimate – on the hosting and seeding of a code audit document by a certified user a vote will be held to ensure the audit is legitimate. If the user is not receiving a wage from Aletheia a portion of any available funds will be routed to the user as payment if the vote is carried. 
-* Disagreement with acceptance to be indexed by the blockchain – If something that is not a scientific article or dataset makes it past the previous check a vote can be held to make it unsearchable by the client, thereby removing it from circulation through Aletheia.
-* Vetting localisation – for a translated document be accepted onto the blockchain it will need to be approved  by someone who affirms they also speak this language. There will be a list of languages that users can click on to drill down into the pending translations and the approver will sign the document with their pgp key asserting the translation is of good quality. 
-* Superseded/incorrect information – should an article be found to be partially or wholly factually incorrect, possibly due to an advancement in scientific understanding or any other means, a vote can be held to add a notation to the article stating as such.
-* Disagreement with a translation – should a user feel a translated document is of poor quality or completely incorrect, a vote can be launched to remove the document from the blockchain. In this instance vote with a  quorum will be set based off the number of active users submitting translations.
-* Disagreement with vetting of users – should a user have reason to believe a previously accepted peer reviewer does not hold or no longer holds the qualifications that allowed them to become a peer reviewer, a vote can be held to revoke the user's access to the peer review queue.
+### Smart contracts handling votes related to the content of Aletheia
+* Acceptance into Aletheia – should the submitted documents be seeded by the client and should the metadata of the article and data set be searchable to return the documents in a search througn the client
+* Confirmation that a document sufficiently included peer review notes in redrafting for resubmission – after a paper has been accepted into Aletheia, peer review notes have been submitted against the document, the document has been redrafted and resubmitted, a vote will be held to assess the peer review to ensure the redrafted paper adequately addresses all points raised.  If the users who performed the peer reviews are not receiving a wage from the Aletheia Foundation and their reviews where included into the redrafting of the paper and not removed for lack of relevence, a portion of any available funds will be routed to the users as payment if the vote is carried. It is understood that paying for peer review is contriversial, the Aletheia community has received for and against arguments from multiple people currently in academia. This is still under active discussion and will be closely monitored to ensure it doesn't detriment the peer review process  
+* Confirmation that a code audit was legitimate – If the user is not receiving a wage from the Aletheia Foundation a portion of any available funds will be routed to the user as payment if the vote is carried
+* Disagreement with acceptance into Aletheia – If something that is not an academic paper or data set makes it past the previous check a vote can be held to make it unsearchable by the client and removed from seeding, thereby removing it from circulation through Aletheia
+* Vetting localisation – for a translated document be accepted onto Aletheia it will need to be approved  by someone who affirms they also speak this language
+* Superseded/incorrect information – should an article be found to be partially or wholly factually incorrect, possibly due to an advancement in scientific understanding or any other means, a vote can be held to add a notation to the article stating as such
+* Disagreement with a translation – should a user feel a translated document is of poor quality or completely incorrect, a vote can be launched to remove the document from Aletheia
 * Acceptance of legitimacy of a takedown order – If Aletheia receives takedown orders, to ensure the order is legitimate the order will be made available to all users to look at. Assessment of the order is a simple series of questions, does Aletheia host the document the order pertains to and was the order issued by a party that legitimately holds the rights to that document.
 * Disagreement with a previously accepted takedown order – if information comes to light that a takedown order was spurious, or if the party who issued the takedown order no longer holds the rights to the document, a vote can be held to make the document downloadable once again.
 
-Smart contracts handling the management of Aletheia:
+The A
+Smart contracts handling the management of Aletheia Foundation:
 
 * Hiring paid staff or skilled volunteers – users can fill out a form listing all their skills and previous work experience. The form will be accessible by other users and people can endorse one another if they have worked together previously. Based on the quality of the candidate worked out by possessed skills, length of previous work experience and endorsements rated by the reputation of the endorser, the contract will offer a paid position to the best candidate as and when roles become available or workload demands an increase in headcount.
 * Maintenance of the platform – users will have the ability to make bug reports through the client. These bugs will be routed to a pool of paid staff or skilled volunteers with the required technical skills. Based on a match of the bug to skill with workload taken into consideration the bug will be assigned to one or more appropriate users who will see the bug report in their client. The contract will keep track of assigned work to be able to assess workload. If the user is not receiving a wage from Aletheia a portion of any available funds will be routed to the user as payment on successful completion of the task once the community verifies the bug is indeed fixed. This considered external work as the request originated from Aletheia's community, not within the entity of Aletheia itself.
