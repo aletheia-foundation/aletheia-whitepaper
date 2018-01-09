@@ -18,7 +18,7 @@ _**Publish research for free, access research for free.**_
   - [Thresholds](#thresholds)
   - [Storage in Aletheia](#storage-in-aletheia)
   - [Voting reputation](#voting-reputation)
-- [Acceptance onto the blockchain](#acceptance-onto-the-blockchain)
+- [Acceptance into Aletheia](#acceptance-into-aletheia)
 - [Peer review](#peer-review)
   - [Short List peer review](#short-list-peer-review)
   - [Entire Pool peer review](#entire-pool-peer-review)
