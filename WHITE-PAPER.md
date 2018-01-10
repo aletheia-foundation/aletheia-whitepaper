@@ -37,7 +37,8 @@ _**Publish research for free, access research for free.**_
 - [Community](#community)
   - [What reputation will be scored on](#what-reputation-will-be-scored-on)
 - [Smart contracts](#smart-contracts)
-  - [Smart contracts handling votes related to the content of Aletheia](#smart-contracts-handling-votes-related-to-the-content-of-aletheia)
+  - [Smart contracts for Aletheia's governance](#smart-contracts-for-Aletheias-governance)
+  - [Smart contracts for managing the Aletheia Foundation](#smart-contracts-for-managing-the-aletheia-foundation)
 - [Revenue model](#revenue-model)
   - [Advertising](#advertising)
   - [Community fundraising](#community-fundraising)
@@ -226,7 +227,7 @@ The below is a basic list of the different things that will impact the reputatio
 As a general rule of thumb, where an action could infer reputation, but also could be abused, such as performing the action numerous times with no benefit to the Aletheia ecosystem, purely for the purpose of appearing to have made a number of contributions and therefore accuring reputation, a check will be put in place. Before reputation can be incurred a vote is launched to assess the users contribution. This vote will have the same three thresholds as other votes. If the community vote passes, the person will be given reputation. If a number of failed votes are registered against the same user will incur a reputational penalty.
 
 ## Smart contracts
-The mechanism that Aletheia handles votes and other decisions is through smart contracts. These smart contracts can be separated into two categories, votes related to the content of Aletheia and management of the Aletheia Foundation. 
+The mechanism that Aletheia handles votes and other decisions is through smart contracts. These smart contracts can be separated into two categories, Altheia's governance and management of the Aletheia Foundation. 
 
 ### Smart contracts for Aletheia's governance
 * Acceptance into Aletheia – should the submitted documents be seeded by the client and should the metadata of the article and data set be searchable to return the documents in a search througn the client
@@ -243,7 +244,7 @@ The mechanism that Aletheia handles votes and other decisions is through smart c
 * Development of the platform – as per maintenance of the platform, being feature requests rather than bug reports. 
 * Vote to verify feature is now available – as per vote to verify bug fixed, being a feature request instead of a bug report.
 
-### Smart contracts handling the management of Aletheia Foundation:
+### Smart contracts for managing the Aletheia Foundation
 The Aletheia Foundation is an entity created to support the Aletheia community and the Aletheia code base. The long term vision is that the Foundation will be run as a DAO, just like Aletheia. Below is the preliminary structure of the contracts that create the Aletheia Foundation DAO.
 
 * Hiring paid staff – users can fill out a form listing all their skills and previous work experience. The form will be accessible by other users and people can endorse one another if they have worked together previously. Based on the quality of the candidate worked out by possessed skills, length of previous work experience and endorsements rated by the reputation of the endorser, the contract will offer a paid position to the best candidate as and when roles become available or workload demands an increase in headcount.
