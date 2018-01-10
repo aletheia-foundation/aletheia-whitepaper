@@ -262,8 +262,6 @@ These consist of ideas that have been considered at one time or another during t
 
 
 
-## Why blockchain?
-Aletheia does not use all the properties of a blockchain, and the idea at it's heart is simply a database. The reason a blockchain is used is primarily for its resiliency. Blockchains are resistant to tampering, meaning the information stored in a blockchain is safer than in a traditional database. Blockchains are also decentralised, meaning that anyone with the open source Aletheia client, which can be downloaded from the official website or any other place that chooses to host it, is running part of the blockchain ledger which is constantly syncing with other users to form the whole ledger. Aletheia threatens very powerful, entrenched and wealthy interests and it is expected the network could come under pressure in one way, shape or form. By using a blockchain, to take Aletheia offline an attacker would have to remove clients from a critical mass of users, or simply take a critical mass of users off the Internet, users that reside all across the world in various legal jurisdictions. Such a task is inordinately more difficult than attacking a central server.
 
 
 
