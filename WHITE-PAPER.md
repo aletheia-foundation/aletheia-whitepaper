@@ -40,12 +40,6 @@ _**Publish research for free, access research for free.**_
   - [Smart contracts for Aletheia's governance](#smart-contracts-for-Aletheias-governance)
   - [Smart contracts for managing the Aletheia Foundation](#smart-contracts-for-managing-the-aletheia-foundation)
 - [Revenue model](#revenue-model)
-  - [Community fundraising](#community-fundraising)
-  - [Computing power](#computing-power)
-  - [Paid version](#paid-version)
-  - [Paid peer review](#paid-peer-review)
-- [Why blockchain?](#why-blockchain)
-- [Out of scope but desirable](#out-of-scope-but-desirable)
 - [Outlook on blockchain and science](#outlook-on-blockchain-and-science)
 
 ## Introduction
@@ -252,18 +246,6 @@ The Aletheia Foundation is an entity created to support the Aletheia community a
 * Payroll – at a regular interval the contract will check how much work has been completed by each staff member, taking into account the difficulty of the work, and a portion of any available funds will be routed to the user as a regular wage along with an adjusted amount based on work signed off as completed by internal vote, again taking into account difficulty. 
 * Budget – at a regular interval the contract will check how much money is available to the Aletheia entity. It will publish this information to Ethereum along with expenses accrued during that period such as wages of staff and payments to volunteers. At the end of each year the system will publish a projection for the coming year based off data from the last year/s.
 * Catch-all contract – smart contracts are meant to facilitate work, not dictate it and sometimes computer code just doesn't cover a real world situation. Any staff member can call a vote on whatever the issue happens to be. If the vote passes its agreed work will be carried out contrary to/outside of the scope of existing contracts until that particular subject is addressed. There is potential for abuse in such a contract, however a large percentage of the workforce would need to collude to use this contract maliciously, being a high bar of difficulty. 
-
-## Possible ideas
-
-These consist of ideas that have been considered at one time or another during the development of Aletheia, or have been suggested by the Aletheia community
-
-
-
-
-
-
-
-
 
 ## Outlook on blockchain and science
 In the course of completing this whitepaper differing opinions in the scientific community on blockchain have become apparent, particularly around the peer review process. Some camps espouse a human actioned/blockchain facilitated peer review process as outlined in this paper. Others say that humans should be eliminated from the peer review process and through semantics, making human written text machine readable, a computer should check the facts in a scientific article against other submitted articles, thereby performing a ‘machine review’. Still others say that humans should be removed even from the collection of scientific fact, with large and complex Internet of Things networks generating data that can be fed into a universal 'blockchain of absolute truth'. Any misunderstanding or misrepresentation of these latter two positions is entirely unintended. This paper outlines the first of these three schools of thought, believing that perfection should not become the enemy of good. If Aletheia is successful it will certainly bring projects of the other two camps closer to realisation, so it is hoped that everyone with an interest in blockchain and/or science can support a project like Aletheia.
