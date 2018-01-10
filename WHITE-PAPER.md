@@ -257,8 +257,7 @@ The Aletheia Foundation is an entity created to support the Aletheia community a
 
 These consist of ideas that have been considered at one time or another during the development of Aletheia, or have been suggested by the Aletheia community
 
-### Community fundraising
-In bringing people together in a community devoted to scientific information there is opportunity to leverage consensus. It would be possible, if the community feels it's a worthy idea, for the Aletheia company to manage a pool of volunteer funds. Anyone can donate to the fund and rounds of community voting would be held on a regular basis for who the funds would be paid to and how much would be paid. Aletheia would in effect be a conduit to crowdfund individual research, educational institutions and anything else the community deems appropriate. Smart contracts could be written to largely automate this process and make it transparent. Aletheia would take a percentage of the funds to cover operating costs.
+
 
 ### Computing power
 A great deal of research needs large amounts of computing power, and Aletheia would have a network that may be able to provide computing power. The implementation of this suggestion has not been explored and has only been suggested as a very high level concept, however if it is possible that Aletheia could provide computing power on demand there are many ways this could be monetised. Again, if the community desired, smart contracts and a voting mechanism could be crafted to manage such a process.
