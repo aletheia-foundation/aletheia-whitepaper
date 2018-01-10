@@ -259,8 +259,6 @@ These consist of ideas that have been considered at one time or another during t
 
 
 
-### Paid version
-The final product of Aletheia has many features that will be built in stages, and then there are the inevitable bug fixes, stability patches, etc. This means there will be many versions of Aletheia. A potential revenue model is to release the minimum viable product of Aletheia for free, and when a next version is released attach a small cost to the download. Once a third version is released the second version becomes free and the third version is downloadable at a small costs. Ensuring there is always a free version of the client ensures the core principles of Aletheia are met while generating a revenue stream for future development of the platform.
 
 ### Paid peer review
 Under the current paradigm, submitting your work to many paywall journals and even many open access journals costs money, in the order of tens to a few hundred dollars. This is not a small cost. However, a legitimately small cost for peer review is, in comparison, quite reasonable. It's suggested that Aletheia could charge a few dollars to handle the peer review process. Compared to spending a few hundred dollars, spending less than ten dollars for the same process is a difference so great it should not put off usage of the client.
