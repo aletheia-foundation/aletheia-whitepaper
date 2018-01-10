@@ -259,9 +259,6 @@ These consist of ideas that have been considered at one time or another during t
 
 
 
-### Computing power
-A great deal of research needs large amounts of computing power, and Aletheia would have a network that may be able to provide computing power. The implementation of this suggestion has not been explored and has only been suggested as a very high level concept, however if it is possible that Aletheia could provide computing power on demand there are many ways this could be monetised. Again, if the community desired, smart contracts and a voting mechanism could be crafted to manage such a process.
-
 ### Paid version
 The final product of Aletheia has many features that will be built in stages, and then there are the inevitable bug fixes, stability patches, etc. This means there will be many versions of Aletheia. A potential revenue model is to release the minimum viable product of Aletheia for free, and when a next version is released attach a small cost to the download. Once a third version is released the second version becomes free and the third version is downloadable at a small costs. Ensuring there is always a free version of the client ensures the core principles of Aletheia are met while generating a revenue stream for future development of the platform.
 
