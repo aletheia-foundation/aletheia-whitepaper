@@ -4,11 +4,7 @@ _**Publish research for free, access research for free.**_
 
 ## Repository:
 
-The multiple drafts of the whitepaper and any additional documents will be stored here. This will be maintained by Kade Morton as he continues to update the whitepaper and any other documentation. 
-
-## Author/s: 
-
-Kade Morton
+The multiple drafts of the whitepaper and any additional documents will be stored here. 
 
 ## Contact:
 
