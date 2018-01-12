@@ -205,9 +205,9 @@ An often cited issue with peer to peer technology is that few people share conte
 ## Community
 _It’s time to come into the light and, in the grand tradition of civil disobedience, declare our opposition to this private theft of public culture. - [Aaron Swartz, Guerilla Open Access Manifesto](https://archive.org/details/GuerillaOpenAccessManifesto)_
 
-Aletheia is the embodiment of software that, while it exists as code, it does not function in any real sense removed from a human context. Aletheia’s skeleton may be code, but it’s heart is the human community. Anyone, by downloading the Aletheia client, can be a member of the community and through the client the user will be able to see all the activities they can take part in as a member of the community. 
+Aletheia is the embodiment of software that, while it exists as code, has no function removed from a human context. Aletheia’s skeleton may be code, but it’s heart is the human community. Anyone, by downloading the Aletheia client, can be a member of the community and through the client the user will be able to see all the activities they can take part in as a member of the community. 
 
-Below is a basic guide to common community activities:
+Below is a basic outline of common community activities:
 
 * Peer review documents – Users are able to see documents pending an Entire Pool peer review. They will be able to upload comments on the document that will go back to the submitter form part of the peer review. It submitters have an issue with any user being able to submit comments, they can either choose a Short List peer review, or no peer review at all
 * Localise documents – translate documents into other languages and then upload the document which will be linked to the original, making Aletheia’s content more accessible to a wider audience
