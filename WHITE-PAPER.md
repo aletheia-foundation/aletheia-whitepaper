@@ -36,10 +36,10 @@ _**Publish research for free, access research for free.**_
 - [The incentivised seeding problem](#the-incentivised-seeding-problem)
 - [Community](#community)
   - [What reputation will be scored on](#what-reputation-will-be-scored-on)
+- [Revenue model](#revenue-model)
 - [Smart contracts](#smart-contracts)
   - [Smart contracts for Aletheia's governance](#smart-contracts-for-Aletheias-governance)
   - [Smart contracts for managing the Aletheia Foundation](#smart-contracts-for-managing-the-aletheia-foundation)
-- [Revenue model](#revenue-model)
 - [Outlook on blockchain and scientific communication](#outlook-on-blockchain-and-scientific-communication)
 
 ## Introduction
@@ -223,8 +223,8 @@ The below is a basic list of the different things that will impact the reputatio
 * Submitting academic papers
 * The quality of the paper
 * Receiving citations to published papers
-* The inclusion of data sets with papers so data sets are stored together with papers, easily locatable and not lost.
-* The inclusion of data analysis methodology so research is easily reproducible
+* The inclusion of data sets with papers 
+* The inclusion of data analysis methodology 
 * Peer reviewing the papers of others
 * The quality of the peer reviews
 * Participating in community voting
@@ -233,16 +233,17 @@ The below is a basic list of the different things that will impact the reputatio
 * Localising academic papers
 * Effort will be placed on finding ways to measure contributions from other community members, like though community organising and managing Aletheia's social media presence.
 
-As a general rule of thumb, where an action could infer reputation, but also could be abused, such as performing the action numerous times with
- no benefit to the Aletheia ecosystem, purely for the purpose of appearing to have made a number of contributions and therefore accruing reputation, a check will be put in place. Before reputation can be incurred a vote is launched to assess the users contribution. This vote will have the same three
- thresholds as other votes. If the community vote passes, the person will be given reputation. If a number of failed votes are registered against the same user will incur a reputational penalty.
+As a general rule of thumb, where an action could infer reputation, but also could be abused, such as performing the action numerous times with no benefit to the Aletheia ecosystem purely for the purpose of appearing to have made a number of contributions and therefore accruing reputation, a check will be put in place. Before reputation can be incurred a vote is launched to assess the users contribution. This vote will have the same three thresholds as other votes. If the community vote passes, the user will be given reputation. If a number of failed votes are registered against the same user will incur a reputational penalty.
+
+## Revenue model
+The Aletheia application will have a cryptocurrency miner built into it. This will be explicit and it will be explained to users that by downloading the Aletheia application, you are running a cryptocurrency miner. All cryptocurrency mined will go to the Aletheia Foundation and everyone will be able to check the amount of cryptocurrency received by the Foundation. Funds will cover [Ethereum gas costs](https://ethereum.gitbooks.io/frontier-guide/content/costs.html), a tax for using Ethereum, along with paying the wages of any Foundation full time staff. Wages of staff will be publicly available. Remaining funds will be given to members of the community that help maintain Aletheia through fixing bugs and other tasks, and records community payments will also be publicly available.
 
 ## Smart contracts
 The mechanism that Aletheia handles votes and other decisions is through smart contracts. These smart contracts can be separated into two categories, Aletheia's governance and management of the Aletheia Foundation. 
 
 ### Smart contracts for Aletheia's governance
 * Acceptance into Aletheia – should the submitted documents be seeded by the client and should the metadata of the article and data set be searchable to return the documents in a search through the client
-* Confirmation that a document sufficiently included peer review notes in redrafting for resubmission – after a paper has been accepted into Aletheia, peer review notes have been submitted against the document, the document has been redrafted and resubmitted, a vote will be held to assess the peer review to ensure the redrafted paper adequately addresses all points raised.  If the users who performed the peer reviews are not receiving a wage from the Aletheia Foundation and their reviews where included into the redrafting of the paper and not removed for lack of relevance, a portion of any available funds will be routed to the users as payment if the vote is carried. It is understood that paying for peer review is controversial, the Aletheia community has received for and against arguments from multiple people currently in academia. This is still under active discussion and will be closely monitored to ensure it doesn't detriment the peer review process  
+* Confirmation that a document sufficiently included peer review notes in redrafting for resubmission – after a paper has been accepted into Aletheia, peer review notes have been submitted against the document, the document has been redrafted and resubmitted, a vote will be held to assess the peer review to ensure the redrafted paper adequately addresses all points raised.  If the users who performed the peer review is not receiving a wage from the Aletheia Foundation and their reviews where included into the redrafting of the paper, a portion of any available funds will be routed to the user as payment if the vote is carried. It is understood that paying for peer review is controversial, the Aletheia community has received for and against arguments from multiple people currently in academia. This is still under active discussion and will be closely monitored to ensure it doesn't detriment the peer review process  
 * Confirmation that a code audit was legitimate – If the user is not receiving a wage from the Aletheia Foundation a portion of any available funds will be routed to the user as payment if the vote is carried
 * Disagreement with acceptance into Aletheia – If something that is not an academic paper or data set makes it past the previous check a vote can be held to make it unsearchable by the client and removed from seeding, thereby removing it from circulation through Aletheia
 * Vetting localisation – for a translated document be accepted onto Aletheia it will need to be approved  by someone who affirms they also speak this language
@@ -266,9 +267,6 @@ The Aletheia Foundation is an entity created to support the Aletheia community a
  the system will publish a projection for the coming year based off data from the last year/s.
 * Catch-all contract – smart contracts are meant to facilitate work, not dictate it and sometimes computer code just doesn't cover a real world situation. Any staff member can call a vote on whatever the
  issue happens to be. If the vote passes its agreed work will be carried out contrary to/outside of the scope of existing contracts until that particular subject is addressed. There is potential for abuse in such a contract, however a large percentage of the workforce would need to collude to use this contract maliciously, being a high bar of difficulty. 
-
-## Revenue model
-The Aletheia application will have a cryptocurrency miner built into it. This will be explicit and it will be explained to users that by downloading the Aletheia application, you are running a cryptocurrency miner. All cryptocurrency mined will go to the Aletheia Foundation and everyone will be able to check the amount of cryptocurrency received by the Foundation. Funds will cover [Ethereum gas costs](https://ethereum.gitbooks.io/frontier-guide/content/costs.html), a tax for using Ethereum, along with paying the wages of any Foundation full time staff. Wages of staff will be publicly available. Remaining funds will be given to members of the community that help maintain Aletheia through fixing bugs and other tasks, and records community payments will also be publicly available.
 
 ## Outlook on blockchain and scientific communication
 In the course of completing this whitepaper differing opinions in the scientific community on blockchain have become apparent, particularly around the peer review process. Some camps espouse a human actioned/blockchain facilitated peer review process as outlined in this paper. Others say that humans should be eliminated from the peer review process and through semantics, making human written text machine readable, a computer should check the facts in a scientific article against other submitted articles, thereby performing a ‘machine review’. Still others say that humans should be removed even from the collection of scientific fact, with large and complex Internet of Things networks generating data that can be fed into a universal 'blockchain of absolute truth'. Any misunderstanding or misrepresentation of these latter two positions is entirely unintended. This paper outlines the first of these three schools of thought, believing that perfection should not become the enemy of good. If Aletheia is successful it will certainly bring projects of the other two camps closer to realisation, so it is hoped that everyone with an interest in blockchain and/or scientific communication can support a project like Aletheia.
