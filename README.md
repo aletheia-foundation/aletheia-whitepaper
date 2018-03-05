@@ -6,6 +6,8 @@ _**Publish research for free, access research for free.**_
 
 The multiple drafts of the whitepaper and any additional documents will be stored here. 
 
+[Read the Aletheia whitepaper here](WHITE-PAPER.md)
+
 ## Contact:
 
 contact@aletheia-foundation.io
