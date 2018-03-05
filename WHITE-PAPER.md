@@ -36,12 +36,14 @@ _**Publish research for free, access research for free.**_
 
 ## Introduction
 It was estimated in 2010 that roughly 50 million scientific articles had been published to date [1](http://www.ruor.uottawa.ca/bitstream/10393/19577/2/Jinha_Arif_2010_Article_50_million.pdf). It is unclear what percentage of scientific articles are behind paywalls but given a cursory search for scientific articles online will more often than not lead to a paywall, it can be surmised that a large percentage of scientific articles are behind paywalls. That is to say, a large percentage of humanity’s collective knowledge is only accessible by those with financial means. To put the term ‘financial means’ in context, in 2012 the Harvard Library published a letter stating that it was paying close to $3,750,000 USD a year in journal subscriptions and that this state of affairs was financially untenable, meaning the library planned on cutting back the number of journals on offer to students [2](http://gantercourses.net/wp-content/uploads/2013/11/Faculty-Advisory-Council-Memorandum-on-Journal-Pricing-§-THE-HARVARD-LIBRARY.pdf). 
+
 ![The Subscription Journal Publishing Model](diagrams/aletheia-overview-subscription-journal.png?raw=true)
 
 If Ivy League institutions cannot afford scientific journals, what chance does an institution in a developing nation, or even just your average individual have? Cutting off every person who doesn’t have the financial means to pay exorbitant fees for scientific knowledge is fundamentally wrong. Aletheia is a proposal to go some way to correcting this error while also fostering a movement against paywall journals. Aletheia is a blockchain that is free to access, hosting peer to peer information allowing people to transfer scientific journals to one another, with the community being facilitated by smart contracts. It is hoped these smart contracts could form the basis for administering other open source software projects.
 
 ## A blockchain journal
 A blockchain is a distributed ledger that through cryptographic means can only be added to, not subsequently changed. For a thorough technical explanation of a blockchain, please see Satoshi Nakamoto’s original paper, [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf). A blockchain has many properties and Aletheia does not make use of them all. Aletheia isn’t concerned with creating assets and preventing double spending of those assets, for instance. Aletheia utilises a blockchain primarily to achieve a distributed and tamper proof database of information, storing document metadata, vote topics, vote results and information specific to users such as reputation and certifications.
+
 ![Blockchain Journal Overview](diagrams/aletheia-overview-aletheia-1.0.png)
 
 ## Submission and vetting
