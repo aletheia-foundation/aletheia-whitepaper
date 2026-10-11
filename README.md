@@ -11,3 +11,6 @@ The multiple drafts of the whitepaper and any additional documents will be store
 ## Contact:
 
 contact@aletheia-foundation.io
+
+> Contact update (11 October 2026): The Aletheia email address is no longer monitored. Please send all enquiries, feedback, and contribution offers to [kademorton@protonmail.com](mailto:kademorton@protonmail.com).
+
